@@ -70,3 +70,58 @@ Your goal is to update the existing code to develop key features requested by yo
 Add dog multiple attribute search
 Update search animation
 Use Visual Studio Code as your development environment, and test your application at each stage of your development process.
+
+# Starter file review
+1. In Visual Studio Code, navigate to the challenge project starter folder
+
+2. In Visual Studio Code menu Bar, select: "Terminal" > "New Terminal"
+
+3. The Terminal Window should be open to the Starter folder containing the Program.cs file. Build and run the file entering dotnet run in the terminal window.
+
+The menu should display with two options. Enter 1 as shown in the following terminal example:
+
+Console
+
+Copy
+Welcome to the Contoso PetFriends app. Your main menu options are:
+  1. List all of our current pet information
+  2. Display all dogs with a specified characteristic
+
+Enter your selection number (or type Exit to exit the program)
+1
+The sample data on the current pets should display followed by the message Press the Enter key to continue
+
+After pressing Enter, the menu should display again. Choose Option 2, shown in the following example:
+
+Console
+
+Copy
+Welcome to the Contoso PetFriends app. Your main menu options are:
+ 1. List all of our current pet information
+ 2. Display all dogs with a specified characteristic
+
+Enter your selection number (or type Exit to exit the program)
+2
+
+Enter one desired dog characteristic to search for
+
+Enter "large" for the search term and press "Enter."
+
+Notice the "searching" message as shown:
+
+Console
+
+Copy
+searching our dog Nickname: gus for large ...     
+Notice, the message runs before each search of a pet, and the periods (., .., ...) at the end change in an animation. Run the search again if you missed it.
+
+Once the search ends, press enter to return to the menu. Then type "exit" and press "Enter" to close the application.
+
+Take a few minutes to become familiar with the Project.cs started code.
+
+Focus on the areas that require updates, search and the animation.
+
+Notice that there are some comments left in the code that indicate where to place an update.
+
+You're now ready to begin the Guided project exercises. Good luck!
+
